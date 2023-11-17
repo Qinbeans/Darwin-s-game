@@ -1,0 +1,56 @@
+[
+    {
+        "color": {
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+        },
+        "name": "red",
+        "size": [ 10, 10 ],
+        "speed": 2,
+        "pool": 100,
+        "division": 50,
+        "rules": {
+            "red": -0.01,
+            "blue": 0.1,
+            "green": -0.1
+        }
+    },
+    {
+        "color": {
+            "r": 0.0,
+            "g": 1.0,
+            "b": 0.0,
+            "a": 1.0
+        },
+        "name": "green",
+        "size": [ 7, 7 ],
+        "speed": 4,
+        "pool": 250,
+        "division": 10,
+        "rules": {
+            "green": 0.01,
+            "red": 0.11,
+            "blue": 0.05
+        }
+    },
+    {
+        "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 1.0,
+            "a": 1.0
+        },
+        "name": "blue",
+        "size": [ 15, 15 ],
+        "speed": 1,
+        "pool": 75,
+        "division": 20,
+        "rules": {
+            "blue": -0.01,
+            "red": 0.12,
+            "green": 0.05
+        }
+    }
+]
